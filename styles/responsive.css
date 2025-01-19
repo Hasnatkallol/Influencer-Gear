@@ -11,14 +11,56 @@
         align-items: center;
         max-width: 100%;
         height: auto;
-        border: 1px solid red;
         margin: 10px auto;
+    }
+    .our-sponsors{
+        max-width:100%;
+        height: auto;
+        border-top: 1px solid rgb(206, 199, 199);
+        border-bottom: 1px solid rgb(206, 199, 199);
+        margin: 50px  auto;
+        gap: 10px;
+       
+      }
+      .our-sponsors .icon{
+        width: 70%;
+        height: auto;
+        justify-content: center;
+        gap: 20px;
+        
+        padding: 10px 0;
+      }
+      .our-sponsors .icon img{
+        width: 100%;
+        height: 100%;
+      }
+      .collection .cards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-self: center;
+        gap: 0px;
+        margin-top: 10px;
+    }
+    .collection .cards .card {
+        width: 100%;
+        height: 460px;
+        border-radius: 5px;
+        box-shadow:0 0 40px 0 rgba(0, 0, 0, 0.15);
+        padding: 15px;
+    }
+    .collection .cards .card .img{
+        width: 300px;
+        height: auto;
+    }
+    .collection .arrow{
+        margin-left: 500px;
     }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     .navbar{
       justify-content: space-between;
         width: 100%;
+        padding: 5px;
     }
 
     .navbar ul li a{
@@ -34,7 +76,6 @@
         align-items: center;
         width: 100%;
         height: auto;
-        border: 1px solid red;
         margin: 10px auto;
     }
     .banner .banner-text .banner-title{
@@ -67,6 +108,60 @@
         width: 100%;
         height: 100%;     
     }
+    .our-sponsors{
+        max-width:100%;
+        height: auto;
+        border-top: 1px solid rgb(206, 199, 199);
+        border-bottom: 1px solid rgb(206, 199, 199);
+        margin: 50px  auto;
+        gap: 10px;
+       
+      }
+      .our-sponsors .icon{
+        width: 70%;
+        height: auto;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;
+        padding: 20px 0;
+      }
+      .our-sponsors .icon img{
+        width: 100%;
+        height: 100%;
+      }
+            /* start popular collection */
+.collection{
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.collection .cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-self: center;
+    gap: 0px;
+    margin-top: 10px;
+}
+.collection .cards .card {
+    width: 100%;
+    height: 460px;
+    border-radius: 5px;
+    box-shadow:0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.collection .cards .card .img{
+    width: 250px;
+    height: auto;
+}
+
+.collection .arrow{
+    color: red;
+    font-family: "Poppins", serif;
+    margin-top: 10px;
+    margin-left: 250px;
+}
 }
 
 
@@ -94,7 +189,6 @@
         align-items: center;
         width: 100%;
         height: auto;
-        border: 1px solid red;
         margin: 10px auto;
     }
     .banner .banner-text .banner-title{
@@ -127,4 +221,56 @@
         width: 100%;
         height: 100%;     
     }
+    .our-sponsors{
+        max-width:100%;
+        height: auto;
+        border-top: 1px solid rgb(206, 199, 199);
+        border-bottom: 1px solid rgb(206, 199, 199);
+        margin: 50px  auto;
+        gap: 10px;
+       
+      }
+      .our-sponsors .icon{
+        width: 70%;
+        height: auto;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;
+        padding: 20px 0;
+      }
+      .our-sponsors .icon img{
+        width: 100%;
+        height: 100%;
+      }
+      /* start popular collection */
+.collection{
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.collection .cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-self: center;
+    gap: 20px;
+    margin-top: 0px;
+}
+.collection .cards .card {
+    width: 100%;
+    height: 460px;
+    border-radius: 5px;
+    box-shadow:0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+
+.collection .arrow{
+    color: red;
+    font-family: "Poppins", serif;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
 }
