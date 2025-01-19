@@ -270,18 +270,23 @@
       }
       /* start popular collection */
 .collection{
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0px auto 0px auto;
     display: flex;
     flex-direction: column;
+  
 }
 .collection .cards {
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    width: 400px;
+    justify-content: center;
     align-self: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 0px;
+    margin: 0;
+    padding: 0;
 }
 .collection .cards .card {
     width: 100%;
@@ -289,6 +294,12 @@
     border-radius: 5px;
     box-shadow:0 0 40px 0 rgba(0, 0, 0, 0.15);
     padding: 15px;
+    margin: 0;
+    
+}
+.collection .cards .card  .img{
+    width: 100%;
+    
 }
 
 
