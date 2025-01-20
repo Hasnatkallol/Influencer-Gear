@@ -121,24 +121,21 @@ align-items: center;
 
 /* Main part */
 /* Our sponsors */
-.our-sponsors{
-    max-width:1500px;
-    height: 100px;
-    border-top: 1px solid rgb(206, 199, 199);
-    border-bottom: 1px solid rgb(206, 199, 199);
-    margin: 0  auto;
-    gap: 0px;
-    display: flex;
-    flex-direction: column;
-    
+.sponsors{
+    max-width: 1500px;
+    height: 120px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 50px auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  .our-sponsors .icon{
-    justify-content: center;
-    gap: 50px;
-  }
+    align-content: center;
+}
+.sponsors img{
+    margin: 0 50px;
+}
+
 /* start popular collection */
 .collection{
     max-width: 1500px;
@@ -196,7 +193,6 @@ align-items: center;
    width: 130px;
    height: 20px;
    margin: 10px 0;
-   
 }
 .collection .cards .card  .star .star-icon{
     display: flex;
@@ -204,6 +200,7 @@ align-items: center;
     width: 16px;
     height: 16px;
 }
+
 .collection .cards .card  .star .rating p{
     font-family: "Roboto", serif;
     font-size: .75rem;
